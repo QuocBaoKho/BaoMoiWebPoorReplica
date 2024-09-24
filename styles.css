@@ -1,0 +1,9 @@
+.normalTab {
+  @apply border-solid border-l p-[10px] mx-[2px] text-[1rem] cursor-pointer hover:bg-[#8ddce9] hover:bg-opacity-[80%] bg-[#8ddce9];
+}
+.roundedTab {
+  @apply border-solid border rounded-[10px] p-[10px] justify-center items-center mx-[2px] h-[27px] text-[12px] cursor-pointer hover:bg-[#8ddce9] hover:bg-opacity-[80%] bg-[#8ddce9];
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
